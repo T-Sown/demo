@@ -108,6 +108,10 @@ body html{
     box-shadow: 2px;
 }
                         /* CONTAINER */
+#container{
+    height: 600px;
+}
+
 #container-slide{
     position: absolute;
     width:100%;
@@ -222,14 +226,11 @@ margin-top: 50px;
     border-radius: 50%;
     border:1px solid #555;
     transition: 0.5s;
+    cursor: pointer;
 }
 .slide-btn button:hover{
     background-color: #bac383;
 }
-
-
-                        /* EVENT  */
-
                         /* CONTACT-FOOTER  */
 #footer{
     background-color: #eee;
